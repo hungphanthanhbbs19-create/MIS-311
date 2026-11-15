@@ -62,7 +62,9 @@ The mean sale (124.19) is higher than the median (95.43), so the data is right-s
 ## 4. Key Insights
 
 ### Insight 1: Member customers spend more per sale than Normal customers
+
 	Table 2. Sales summary by customer type
+	
 | | Sales | Mean sale | Median sale | Share of revenue |
 |---|---|---|---|---|
 | Member | 131 | 136.30 | 115.56 | 57.7% |
