@@ -49,6 +49,7 @@ Table 1. Descriptive statistics of quantity and total price
 
 - Total revenue: **31,046**
 - Correlation between `quantity` and `total_price`: **0.72**
+  
 Figure 1. Distribution of sale value and quantity per sale
 ![Distributions](images/01_distributions.png)
 
