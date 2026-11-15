@@ -5,9 +5,6 @@
 > **Tools:** Python (pandas, matplotlib, seaborn), Jupyter Notebook
 
 **Business question:** Where does the supermarket's revenue come from, and which customer or store segments deserve attention?
-
-📓 Full code and outputs: [`supermarket-sales_EDA.ipynb`](supermarket-sales_EDA.ipynb)
-
 ---
 
 ## 1. Data Overview
