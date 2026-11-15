@@ -93,19 +93,3 @@ Chicago earns the most revenue (11,133, or 35.9%) even though it has the fewest 
 - Branch B exists only in Los Angeles, so branch and city overlap; I used city.
 - The results describe this sample only and may not apply to the whole chain.
 
-## 6. How to Run
-
-```bash
-pip install pandas matplotlib seaborn scipy openpyxl jupyter
-jupyter notebook supermarket-sales_EDA.ipynb
-```
-
-## References
-
-Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. *Computing in Science & Engineering, 9*(3), 90–95. https://doi.org/10.1109/MCSE.2007.55
-
-McKinney, W. (2010). Data structures for statistical computing in Python. In *Proceedings of the 9th Python in Science Conference* (pp. 56–61). https://doi.org/10.25080/Majora-92bf1922-00a
-
-MIS 311 – Introduction to Business Analytics. (n.d.). *Datasets for assessment: Supermarket sale* [Data set]. Eastern International University.
-
-Waskom, M. L. (2021). seaborn: Statistical data visualization. *Journal of Open Source Software, 6*(60), Article 3021. https://doi.org/10.21105/joss.03021
