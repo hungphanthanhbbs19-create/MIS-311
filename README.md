@@ -39,7 +39,7 @@ I found **3 rows** that were exact copies of another row (same `sale_id` and sam
 ---
 
 ## 3. Descriptive Statistics
-
+Figure 1. Distribution of sale value and quantity per sale
 | | quantity | total_price |
 |---|---|---|
 | Mean | 10.62 | 124.19 |
