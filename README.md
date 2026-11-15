@@ -39,7 +39,7 @@ I found **3 rows** that were exact copies of another row (same `sale_id` and sam
 ---
 
 ## 3. Descriptive Statistics
-Figure 1. Distribution of sale value and quantity per sale
+Table 1. Descriptive statistics of quantity and total price
 | | quantity | total_price |
 |---|---|---|
 | Mean | 10.62 | 124.19 |
@@ -49,7 +49,7 @@ Figure 1. Distribution of sale value and quantity per sale
 
 - Total revenue: **31,046**
 - Correlation between `quantity` and `total_price`: **0.72**
-
+Figure 1. Distribution of sale value and quantity per sale
 ![Distributions](images/01_distributions.png)
 
 The mean sale (124.19) is higher than the median (95.43), so the data is right-skewed: a small number of very large orders (up to 427.14) pull the average up. This means the median describes a typical sale better than the mean. The correlation of 0.72 shows that sales with more units usually have a higher total price.
@@ -59,24 +59,24 @@ The mean sale (124.19) is higher than the median (95.43), so the data is right-s
 ## 4. Key Insights
 
 ### Insight 1: Member customers spend more per sale than Normal customers
-
+	Table 2. Sales summary by customer type
 | | Sales | Mean sale | Median sale | Share of revenue |
 |---|---|---|---|---|
 | Member | 131 | 136.30 | 115.56 | 57.7% |
 | Normal | 116 | 112.99 | 79.33 | 42.3% |
-
+	Figure 2. Average and spread of sale value by customer type
 ![Customer type](images/02_customer_type.png)
 
 Members spend 136.30 per sale on average compared with 112.99 for Normal customers (about 21% more), and they generate 57.7% of revenue from about 53% of sales. This suggests that members are higher-value shoppers, because they buy slightly more units per sale (11.2 vs 10.2) at a higher unit price. The supermarket could focus on keeping and growing its membership, although the difference is suggestive rather than conclusive (Welch t-test p ≈ 0.07).
 
 ### Insight 2: Chicago earns the most revenue with the fewest transactions
-
+	Table 3. Sales summary by city
 | City | Transactions | Total revenue | Mean sale | Share |
 |---|---|---|---|---|
 | Chicago | 77 | 11,133 | 144.59 | 35.9% |
 | New York | 95 | 10,964 | 115.41 | 35.3% |
 | Los Angeles | 78 | 8,949 | 114.73 | 28.8% |
-
+	Figure 3. Total revenue and average sale value by city
 ![City](images/03_city.png)
 
 Chicago earns the most revenue (11,133, or 35.9%) even though it has the fewest transactions (77), because its average sale is 144.59 compared with about 115 in New York and Los Angeles. In contrast, New York has the most transactions (95) but the smallest basket (9.9 units per sale), which shows that counting transactions alone can be misleading. The business could offer bundle deals in New York to raise basket size and study what works in Chicago, keeping in mind that Chicago's higher average is only borderline significant (p ≈ 0.05).
